@@ -6,4 +6,9 @@ grocery_inventory = {
 }
 
 bread_details = grocery_inventory.get("Bread")
-print(bread_details)
+grocery_inventory.update({"Cookies": (143, "Bakery")})
+
+print ("Details of Bread:", bread_details) 
+print ("Inventory after adding Cookies:", grocery_inventory)
+grocery_inventory.pop("Eggs")
+print ("Inventory after removing Eggs:", grocery_inventory)
