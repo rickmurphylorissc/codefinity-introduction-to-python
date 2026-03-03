@@ -1,12 +1,15 @@
+#First variable is and integer 
 start_number = 5
+#Second variable is a list []
 countdown_values = []
-current = start_number
+#Third variable is to record steps
+counter = start_number
 
-while current > 0:
-    countdown_values.append(current)
-    print(f"Remaining time: {countdown_values} hours")
-    current -= 1
+while counter > 0:
+    countdown_values.append(counter)
+    print(f"Remaining time: {countdown_values} hours")    
+    counter -= 1
     
 
 print("Discount countdown complete!")
-print(countdown_values)
+print(counter)
